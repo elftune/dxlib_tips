@@ -6,6 +6,8 @@
 
 ---
 
+---
+
 ## DxLibのソースファイル自体を含めてビルドする
 DxLibをしばらく使っていると、「これはどういう処理をしているのだろう」とか「もしかしたらライブラリのバグかもしれない」とかで、ライブラリ自体をソースレベルでビルドし、デバッグ実行してブレークポイントをライブラリ側にセットして挙動を確認とかがしたくなります（よね？）。
 
@@ -22,9 +24,13 @@ E:\DX3\DxLib_VC
 E:\DX3\DxLibMake
 
 Temp版をダウンロードする。今回は関係ないが、DxLib Model Viewerも機能が最近追加されたのでGETしておく。
+
 http://dxlib.o.oo7.jp/temp/DxLibVCTest.zip
+
 http://dxlib.o.oo7.jp/temp/DxLibMakeTest.zip
+
 http://dxlib.o.oo7.jp/temp/DxLibModelViewerTest.zip
+
 
 DxLibVCTest.zipとDxLibMakeTest.zipもDX3フォルダの下に展開する。
 E:\DX3\DxLibMakeTest の中身全部を E:\DX3\DxLibMake に上書きする。
@@ -105,21 +111,34 @@ E:\DX3\DxLibMake に「DxUseCLib スタティックリンクライブラリに�
 E:\DX3\EXT_LIB フォルダを作り、とりあえずファイルをここに置く。.tar.gz は .tar に展開しよう。
 
 bullet-2.75.zip
+
 jpegsr9c.zip
+
 lpng1635.zip
+
 opus-1.2.1.tar
+
 opusfile-0.11.tar
+
 tiff-4.0.9.zip
+
 zlib1211.zip
+
 
 が集まったので、それぞれフォルダに展開する。
 
 E:\DX3\EXT_LIB\bullet-2.75
+
 E:\DX3\EXT_LIB\jpeg-9c
+
 E:\DX3\EXT_LIB\lpng1635
+
 E:\DX3\EXT_LIB\opus-1.2.1
+
 E:\DX3\EXT_LIB\opusfile-0.11
+
 E:\DX3\EXT_LIB\tiff-4.0.9
+
 E:\DX3\EXT_LIB\zlib-1.2.11
 
 といったところだろう。
