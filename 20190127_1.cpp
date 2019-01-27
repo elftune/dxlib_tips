@@ -1,5 +1,5 @@
 /*
-	2019/01/27	タイピングソフトサンプル by elftune
+	2019/01/27 タイピングソフトサンプル by elftune
 	https://dxlib.xsrv.jp/cgi/patiobbs/patio.cgi?mode=view&no=4567 にDxLib管理人さんが書いたコードを発展
 */
 #include "DxLib.h"
